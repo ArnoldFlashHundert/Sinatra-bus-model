@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+}
+nav {
+	margin-top: 0;
+	width: 100%;
+	background-color: lightblue;
+}
+nav ul {
+	margin-top: 0;
+	padding-top: 0;
+	padding-left: 360px;
+	list-style: none;
+	font-size: 28px;
+}
+nav li {
+	display: inline-block;
+	padding: 0 50px;
+}
+#myTitle{
+	text-align: center;
+	font-size: 48px;
+	text-decoration: underline;
+}
+#mySubTitle{
+	text-align: center;
+	font-size: 28px;
+	color: rgb(80, 80, 80);
+}
+.backimg{
+	background-image: url(../images/new-york-city-guide.jpg);
+	background-size: cover;
+}
+#labelName{
+	display: inline-block;
+	float: left;
+	margin-top: 30px;
+	margin-left: 500px;
+	font-size: 32px;
+}
+#userName{
+	display: inline-block;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+	font-size: 28px;
+	text-align: center;
+}
+#labelMail{
+	display: inline-block;
+	float: left;
+	margin-left: 563px;
+	font-size: 32px;
+}
+#email{
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	font-size: 28px;
+	text-align: center;
+}
+#labelPswd{
+	display: inline-block;
+	float: left;
+	margin-left: 523px;
+	font-size: 32px;
+}
+#password{
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	font-size: 28px;
+	text-align: center;
+}
+#submit{
+	font-size: 28px;
+	margin-left: 667px;
+}
+#styling{
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+
+

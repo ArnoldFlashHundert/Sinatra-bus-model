@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ABC Corporation</title>
+	<link rel="stylesheet" href="css/default.css" />
+</head>
+<body class="backimg">
+	<nav>
+		<ul>
+			<% @menu.each do |item| %>
+			<li><a href="<%= item[:href] %>"><%= item[:page] %></a></li>
+			<% end %>
+		</ul>
+	</nav>
+	<!-- Time to Yield! -->
+	<%= yield %>
+	<!-- Back from Yield, didn't even break a sweat -->
+</body>
+</html>
+
+
