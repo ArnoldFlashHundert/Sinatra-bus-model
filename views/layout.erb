@@ -4,19 +4,54 @@
 	<meta charset="UTF-8">
 	<title>ABC Corporation</title>
 	<link rel="stylesheet" href="css/default.css" />
+	<script src="js/main.js"></script>
 </head>
 <body class="backimg">
 	<nav>
-		<ul>
-			<% @menu.each do |item| %>
-			<li><a href="<%= item[:href] %>"><%= item[:page] %></a></li>
-			<% end %>
-		</ul>
 	</nav>
+	<div id="myTitle">ABC Corporation</div>
+
+	<div id="myFooter">
+<!-- 		<p id="footText">testing | </p> -->
+	<!-- ****************************** -->
+
+<div class="footer-links">
+			
+	<a href="/" title="Tables, Chairs, Bedroom & Living Room Sets & More - ABC 	Corporation" class="nav_first" >Home</a> | <a href="/" title="Tables, Chairs, Bedroom & Living Room Sets & More" class="nav_opt" >Our Company</a> | <a href="/" title="Tables, Chairs, Bedroom & Living Room Sets & More" class="nav_opt" >Tables &amp; Chairs </a> | <a href="/" title="Terms &amp; Conditions " class="nav_opt" >Terms &amp; Conditions </a> | <a href="/" title="Privacy" class="nav_opt" >Privacy</a> | <a href="/" title="Lawn &amp; Garden" class="nav_opt" >Lawn &amp; Garden</a> | <a href="/" title="Licensed Patents" class="nav_opt" >Licensed Patents</a> | <a href="/" title="ABC Corporation - Tables, Chairs, Bedroom & Living Room Sets & More" class="nav_opt" >Contact</a>		</div><br> <!--  id="FooterLinks" -->
+		<div class="footer-copyright">
+				  	The contents of this webpage are Copyright &copy; 2016 ABC Corporation. All Rights Reserved.
+		</div> <!-- id="CopyrightNotice" -->
+<!-- ****************************** -->
+</div>
+
 	<!-- Time to Yield! -->
 	<%= yield %>
 	<!-- Back from Yield, didn't even break a sweat -->
+
+<!-- ******** Dropdown Menu ********** -->
+
+	<span class="dropdown">
+		<div class="hamburgerMenu"></div>
+		<div class="hamburgerMenu"></div>
+		<div class="hamburgerMenu"></div>
+		<div class="dropdown-content">
+			<a href="/">Home</a>
+			<a href="/login">Login</a>
+			<a href="/contact">Contact</a>
+			<a href="/images">Staff</a>
+		</div>
+	</span>
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
 
 
